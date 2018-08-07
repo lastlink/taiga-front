@@ -2,6 +2,20 @@
 
 ## Unreleased
 
+## 3.3.15 (2018-08-06)
+
+### Misc
+
+- Filter by cards to find position in Kanban.
+
+## 3.3.14 (2018-08-06)
+
+### Misc
+
+- Move US to the end when status archived and hidden
+
+- Fix US order when move it
+
 ## 3.3.13 (2018-07-05)
 
 ### Misc
