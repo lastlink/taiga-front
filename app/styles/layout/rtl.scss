@@ -158,6 +158,25 @@
         }
     }
 
+    .related-stories-body {
+        .story-assignedto .icon {
+            left: .5rem;
+            right: 0;
+        }
+        .avatar figcaption {
+            margin-left: 0;
+            margin-right: .5rem;
+        }
+        .story-name {
+            margin-left: 1rem;
+            margin-right: 0;
+            span {
+                margin-left: .25rem;
+                margin-right: 0;
+            }
+        }
+    }
+
     .related-tasks-body {
         .task-assignedto .icon {
             left: .5rem;

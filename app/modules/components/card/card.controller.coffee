@@ -52,6 +52,7 @@ class CardController
     _setVisibility: () ->
         visibility = {
             related: @.visible('related_tasks'),
+            relatedus: @.visible('related_us'),
             slides: @.visible('attachments')
         }
 
