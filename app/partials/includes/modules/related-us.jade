@@ -1,0 +1,15 @@
+section.related-us(
+    tg-related-us
+    ng-show="showRelatedUserStories()"
+)
+    .related-stories-header
+        span.related-stories-title(translate="COMMON.RELATED_US")
+        div(tg-related-story-create-button)
+    .related-stories-body
+        .row.single-related-story.js-related-story(
+            ng-repeat="story in stories"
+            ng-class="{closed: story.is_closed, blocked: story.is_blocked, iocaine: story.is_iocaine}"
+            tg-related-story-row
+            ng-model="story"
+        )
+        div(tg-related-story-create-form)

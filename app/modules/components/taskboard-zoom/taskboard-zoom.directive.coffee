@@ -28,7 +28,7 @@ TaskboardZoomDirective = (storage) ->
             ["subject"],
             ["owner", "tags", "extra_info", "unfold"],
             ["attachments", "empty_extra_info"],
-            ["related_tasks"]
+            ["related_tasks", "related_us"]
         ]
 
         getZoomView = (zoomIndex = 0) ->
